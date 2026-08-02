@@ -1,0 +1,12 @@
+[Unit]
+Description=Light an LED based on the readme.txt found on an inserted floppy disk
+After=local-fs.target
+
+[Service]
+Type=simple
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/local/bin/floppy-led.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
