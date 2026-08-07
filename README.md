@@ -1,6 +1,8 @@
 # floppy-led
 
-<iframe width="1887" height="1061" src="https://www.youtube.com/embed/P3FClzeb3GM" title="Floppy disk powered LEDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![](youtube.png)](https://www.youtube.com/watch?v=P3FClzeb3GM)
+
+[Watch on YouTube](https://www.youtube.com/watch?v=P3FClzeb3GM)
 
 Insert a floppy disk into a USB floppy drive on a Raspberry Pi; a `readme.txt`
 file on the disk containing "red", "green", or "yellow" lights the matching
